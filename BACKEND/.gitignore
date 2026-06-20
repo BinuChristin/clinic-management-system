@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+myvenv/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Django Media Files
+media/
+
+# Static Files (if collected)
+staticfiles/
+
+# Logs
+*.log
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Test Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Migrations (optional)
+# Uncomment only if your team policy is to recreate migrations
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Secrets
+secrets.json
+
+# Celery
+celerybeat-schedule
+
+# Docker
+*.pid
+
+# Local Settings
+local_settings.py
